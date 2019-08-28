@@ -118,4 +118,10 @@
 
 * Yeni açılan aktivitenize isim belirleyerek işlemlerinize devam edebilirsiniz.
 
-    Diğer                            
+* Ekranlar arası geçiş yapabilmek için **Intent** classından obje oluşturmanız gerekmektedir.
+
+      Intent intent= new Intent( AktiviteAdi.this, goruntulenecekEkraninAdi.class);
+ 
+* Intent classından obje oluşturduktan sonra aktivitenizin başlaması için **startActivity** metodunu kullanıp parametre olarak da objeyi metoda göndermelisiniz. 
+
+      startActivity(intent);
