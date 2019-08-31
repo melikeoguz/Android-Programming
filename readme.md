@@ -140,8 +140,8 @@
    
        ----- public class MainActivity extends AppCompatActivity ------
       
-        EditText editText;
-        String city;
+      EditText editText;
+      String city;
        
        ----- protected void onCreate(Bundle savedInstanceState) -----
        
@@ -156,8 +156,22 @@
        
        intent.putExtra("input",city);
      
- * Bu işlemleri tamamladıktan sonra sıra, kullanıcı tarafından girilen bilginin tutulup görüntüleneceği class'a geliyor.
+ * Bu işlemleri tamamladıktan sonra sıra, kullanıcı tarafından girilen bilginin tutulup görüntüleneceği classın **onCreate** metodu altında yazılması gereken kısma geliyor.
 
-*
-       
+* Burada oluşturulan intent bilgileri almak amacıyla kullanılmalıdır. Bunun için **getIntent()** metodunu kullanabilirsiniz.
+
+   * > **Intent intent =** getIntent();
+
+* Kullanılacak bilgiyi hafıza tutmak için yeni classın içinde de tanımlama yapmalısınız.
+* Tanımlama yapıldıktan sonra intent aracılığıyla tutulan string değerdeki bir bilgiyi **getStringExtra()** metoduyla alabilirsiniz.
+  
+  * Bu metod, parametre olarak kullanılacak bilgiye atadığımız **anahtar kelimeyi** alır.
+  
+  * > **String city =** intent.getStringExtra("input");
+
+
+
+  <br>  ***Text View içerisinde aldığınız bilgiyi görüntülemek için;*** 
+  
+      textView.setText(city);
        
