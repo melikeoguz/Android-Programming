@@ -81,6 +81,9 @@
 
 **OnClickListener**, kullanıcı yes butonuna tıkladığında ne olacağını yazdığımız kısımdır.
 
+***Alert Dialog aşağıdaki gibi görünmektedir.***<br><br>
+![Alert Dailog](https://3.bp.blogspot.com/Hfx09QakM5qdtk-omC6hqbUX4x7OIw8oTgG_m8Wd4Syw4a9sbiW2nyolAyj0lKFb2mm1D-kDago1Ml5u931VZLAN15_3RxKAyHJmKIYiJBE1S0tFq1g-Vm3jjjbh6hKoOMTvkMLd "Alert Dialog")
+
 ----
 
 <h6> Toast Message </h6>
