@@ -1,8 +1,9 @@
 <h3>Android Programlama</h3>
 
     Bu bölümde android programlamaya dair önemli bilgiler ve hatırlatma yazıları bulunmaktadır.
-
 ----
+ ![Android Emulator](http://eagle.phys.utk.edu/guidry/android/figs/nexus6Pemulator.png)
+
 * Eğer uygulamanızı hem yatay hem de dikey modda kullanmak isterseniz **manifest** kısmında **MainActivity** kısmının içine **orientation** yazarken otomatik olarak tamamlanan  `android:screenOrientation` kısmını **sensor** olarak yapabilirsiniz. Böylece kullanıcı ekranı sağa sola çevirdikçe uygulamanızın görünümü de değişecektir.
  
    * Bu adımları yaptığınızda horizontal moddaki görünüm karışık çıkabilir. Bunu engellemek için constraint layoutları hem yatay hem dikey görünüm için ayrı ayrı ayarlayabilirsiniz.
@@ -174,4 +175,22 @@
   <br>  ***Text View içerisinde aldığınız bilgiyi görüntülemek için;*** 
   
       textView.setText(city);
+      
+  ---
+
+  <h6> Aktiviteye Image Eklemek </h6>
+  
+  * Eklemek istediğiniz resimi indirin.
+  * İndirme tamamlandıktan sonra resmi kopyalayıp Android Stüdioyu açıp sol tarafta  bulunan **project** kısmını açın.
+  * Project **app** ve **Gradle Script** olmak üzere iki kısımdan oluşmaktadır. App kısmına tıklayıp oradan **res** başlığını açın.
+  * Res başlığı altında bulunan **drawable** yazına sağ tıklayıp indirdiğiniz fotoğrafı buraya yapıştırın.
+  * Karşınıza **drawable** ve **drawable-v24** seçenekleri çıkacaktır. Drawable seçeneğini işaretleyiniz.
+  * Bu işlemler tamamlandıktan sonra **activity_main.xml** sayfasının **design** kısmını açıp **ImageView** ekleyebilirsiniz.
+  
+  > Tüm adımlar aşağıdaki fotoğrafta görülmektedir.
+  <br><br> 
+  ![drawable](http://android-coffee.com/wp-content/uploads/2016/02/image-display.jpg)
+  
+ 
+
        
