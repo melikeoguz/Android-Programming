@@ -2,7 +2,7 @@
 
     Bu bölümde android programlamaya dair önemli bilgiler ve hatırlatma yazıları bulunmaktadır.
 ----
- ![Android Emulator](http://eagle.phys.utk.edu/guidry/android/figs/nexus6Pemulator.png)
+ ![Android Emulator](http://eagle.phys.utk.edu/guidry/android/figs/nexus6Pemulator.png "Android Emulator")
 
 * Eğer uygulamanızı hem yatay hem de dikey modda kullanmak isterseniz **manifest** kısmında **MainActivity** kısmının içine **orientation** yazarken otomatik olarak tamamlanan  `android:screenOrientation` kısmını **sensor** olarak yapabilirsiniz. Böylece kullanıcı ekranı sağa sola çevirdikçe uygulamanızın görünümü de değişecektir.
  
@@ -93,7 +93,7 @@
         Toast.makeText(MainActivity.this,"Lütfen butonları kullanınız",Toast.LENGTH_LONG).show();
         
 
-![Toast Message](https://i0.wp.com/www.mehmetkarakose.com/wp-content/uploads/2016/09/ToastMesaj%C3%96rnek.png)
+![Toast Message](https://i0.wp.com/www.mehmetkarakose.com/wp-content/uploads/2016/09/ToastMesaj%C3%96rnek.png "Toast Message")
         
 ----
 <h6> Context </h6>
