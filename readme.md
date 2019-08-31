@@ -92,7 +92,8 @@
   
         Toast.makeText(MainActivity.this,"Lütfen butonları kullanınız",Toast.LENGTH_LONG).show();
         
-
+> ***Toast Message aşağıdaki gibi görünmektedir.***
+<br>
 ![Toast Message](https://i0.wp.com/www.mehmetkarakose.com/wp-content/uploads/2016/09/ToastMesaj%C3%96rnek.png "Toast Message")
         
 ----
