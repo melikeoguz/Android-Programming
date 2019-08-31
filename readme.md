@@ -92,7 +92,7 @@
   
         Toast.makeText(MainActivity.this,"Lütfen butonları kullanınız",Toast.LENGTH_LONG).show();
         
-> ***Toast Message aşağıdaki gibi görünmektedir.***
+***Toast Message aşağıdaki gibi görünmektedir.***
 <br>
 ![Toast Message](https://i0.wp.com/www.mehmetkarakose.com/wp-content/uploads/2016/09/ToastMesaj%C3%96rnek.png "Toast Message")
         
@@ -191,7 +191,7 @@
   * Karşınıza **drawable** ve **drawable-v24** seçenekleri çıkacaktır. Drawable seçeneğini işaretleyiniz.
   * Bu işlemler tamamlandıktan sonra **activity_main.xml** sayfasının **design** kısmını açıp **ImageView** ekleyebilirsiniz.<br>
   
-      Tüm adımlar aşağıdaki fotoğrafta görülmektedir.
+      ***Tüm adımlar aşağıdaki fotoğrafta görülmektedir.***
   <br><br> 
   ![drawable](http://android-coffee.com/wp-content/uploads/2016/02/image-display.jpg)
   
