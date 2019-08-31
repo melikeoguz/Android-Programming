@@ -141,6 +141,7 @@
        ----- public class MainActivity extends AppCompatActivity ------
       
       EditText editText;
+      
       String city;
        
        ----- protected void onCreate(Bundle savedInstanceState) -----
