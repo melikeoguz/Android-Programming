@@ -125,3 +125,39 @@
 * Intent classından obje oluşturduktan sonra aktivitenizin başlaması için **startActivity** metodunu kullanıp parametre olarak da objeyi metoda göndermelisiniz. 
 
       startActivity(intent);
+      
+  ----
+  
+  <h6>Aktiviteler Arası Bigi Aktarımı </h6>
+  
+ * Aktarmak istediğiniz veriyi saklayacak alan oluşturduktan sonra **intent.putEkstra()**
+ metodu ile istediğiniz veriyi saklayabilirsiniz.
+ 
+      * putEkstra metodu, bir **anahtar kelime** ve **tutulacak bilginin adını** istemektedir.
+
+
+   ***Örneğin;***
+   
+       ----- public class MainActivity extends AppCompatActivity ------
+      
+      EditText editText;
+      String city;
+       
+       ----- protected void onCreate(Bundle savedInstanceState) -----
+       
+       editText=findViewById(R.id.editText2);
+       city="";
+       
+       ----- public void example(View view) -----
+       
+       city=editText.getText().toString();
+       
+       Intent intent= new Intent(MainActivity.this,Main2Activity.class);
+       
+       intent.putExtra("input",city);
+     
+ * Bu işlemleri tamamladıktan sonra sıra, kullanıcı tarafından girilen bilginin tutulup görüntüleneceği class'a geliyor.
+
+*
+       
+       
