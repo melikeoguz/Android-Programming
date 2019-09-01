@@ -188,7 +188,7 @@
   <h6> Aktiviteye Image Eklemek </h6>
   
   * Eklemek istediğiniz resimi indirin.
-  * İndirme tamamlandıktan sonra resmi kopyalayıp Android Stüdioyu açıp sol tarafta  bulunan **project** kısmını açın.
+  * İndirme tamamlandıktan sonra resmi kopyalayıp Android Studioyu açıp sol tarafta  bulunan **project** kısmını açın.
   * Project **app** ve **Gradle Script** olmak üzere iki kısımdan oluşmaktadır. App kısmına tıklayıp oradan **res** başlığını açın.
   * Res başlığı altında bulunan **drawable** yazına sağ tıklayıp indirdiğiniz fotoğrafı buraya yapıştırın.
   * Karşınıza **drawable** ve **drawable-v24** seçenekleri çıkacaktır. Drawable seçeneğini işaretleyiniz.
