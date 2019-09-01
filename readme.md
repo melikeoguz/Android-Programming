@@ -10,7 +10,7 @@
    * Tek yapmanız gereken **activity_main.xml** kısmına tıklayıp **design** sekmesine gelin. Sol üst kısımda `Orientation for Preview` imgesine tıklayıp **Create Landscape Variation** yazısını seçin. Böylelikle uygulamanızın yatay görünümünü de kontrol etmiş olursunuz.
 
 ----
-<h6> Grid Layout </h6>
+<h6>~ Grid Layout ~</h6>
 
 * Birden fazla image'i düzenli olarak yani koordinat ekseni üzerine yerleştirmek isterseniz **Grid Layout** 'u kullanmanız daha iyi olur.
  
@@ -28,7 +28,7 @@
   ----
 * Import edilmeyen bir özelliği sisteminize import etmek için, fare yardımıyla yazıyı taralı alan içine alıp `alt+ enter` tuşlarına basınız.
 ----
-<h6> Edit Text ve Text View </h6>
+<h6>~ Edit Text ve Text View ~</h6>
 
 * Programınıza  **edit text** ve **text view** ekleyecekseniz bunları **.java** uzantılı dosyaya da eklemeniz gerekmektedir.
 
@@ -39,7 +39,7 @@
          
      ifadesini kullanabilirsiniz.
 ----
-<h6> Shared Preferences </h6>
+<h6>~ Shared Preferences ~</h6>
 
 * Kullanıcının verdiği bir değeri uygulamanız silinene kadar saklamak için **Shared Preferences** kullanmanız gerekmektedir.
 
@@ -59,7 +59,7 @@
     
  > 
  ---   
- <h6> Alert Dialog </h6>
+ <h6>~ Alert Dialog ~</h6>
  
  * Kullanıcıya uyarı mesajları vermek için kullanılan  bir özelliktir. 
  * Bu özelliği kullanabilmek için kodlarınıza **Alert Dialog**'tan aşağıdaki nesne oluşturmanız gerekmektedir.
@@ -86,7 +86,7 @@
 
 ----
 
-<h6> Toast Message </h6>
+<h6>~ Toast Message ~</h6>
 
 * Ekranda uzun veya kısa süreli olarak belirecek olan iletidir. 
 
@@ -100,7 +100,7 @@
 ![Toast Message](https://i0.wp.com/www.mehmetkarakose.com/wp-content/uploads/2016/09/ToastMesaj%C3%96rnek.png "Toast Message")
         
 ----
-<h6> Context </h6>
+<h6>~ Context ~</h6>
 
 * İki tane context çeşiti vardır. Bunlardan bir tanesi **Activity Context** bir diğeri ise **App Context**'tir.
 * Activity contexte erişmek için **this** ya da **MainActivity.this** kullanılır. 
@@ -115,7 +115,7 @@
      MainActivity.this yerine kullanıldığında uygulamanızda hatalara sebep olmaz !
      
 ---
-<h6> Birden Fazla Aktivitenin Eklenmesi </h6>
+<h6>~ Birden Fazla Aktivitenin Eklenmesi ~</h6>
 
 * Projenize yeni bir aktive eklemek için projelerinizi görüntülediğiniz sol kısımda **java** klasörünün altında bulunan **com.android** ile başlayan kısma gelip sağ tık yapın.
 * Tıkladıktan sonra **Activity** yazan kısma tıklayıp **Gallery** kısmına tıklayın.
@@ -136,7 +136,7 @@
       
   ----
   
-  <h6>Aktiviteler Arası Bigi Aktarımı </h6>
+  <h6>~ Aktiviteler Arası Bigi Aktarımı ~</h6>
   
  * Aktarmak istediğiniz veriyi saklayacak alan oluşturduktan sonra **intent.putEkstra()**
  metodu ile istediğiniz veriyi saklayabilirsiniz.
@@ -185,7 +185,7 @@
       
   ---
 
-  <h6> Aktiviteye Image Eklemek </h6>
+  <h6>~ Aktiviteye Image Eklemek  ~</h6>
   
   * Eklemek istediğiniz resimi indirin.
   * İndirme tamamlandıktan sonra resmi kopyalayıp Android Studioyu açıp sol tarafta  bulunan **project** kısmını açın.
