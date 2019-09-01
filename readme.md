@@ -190,7 +190,7 @@
   * Eklemek istediğiniz resimi indirin.
   * İndirme tamamlandıktan sonra resmi kopyalayıp Android Studioyu açıp sol tarafta  bulunan **project** kısmını açın.
   * Project, **app** ve **Gradle Script** olmak üzere iki kısımdan oluşmaktadır. App kısmına tıklayıp oradan **res** başlığını açın.
-  * Res başlığı altında bulunan **drawable** yazına sağ tıklayıp indirdiğiniz fotoğrafı buraya yapıştırın.
+  * Res başlığı altında bulunan **drawable** yazısına sağ tıklayıp indirdiğiniz fotoğrafı buraya yapıştırın.
   * Karşınıza **drawable** ve **drawable-v24** seçenekleri çıkacaktır. Drawable seçeneğini işaretleyiniz.
   * Bu işlemler tamamlandıktan sonra **activity_main.xml** sayfasının **design** kısmını açıp **ImageView** ekleyebilirsiniz.<br>
   
