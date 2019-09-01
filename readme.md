@@ -194,7 +194,7 @@
   * Karşınıza **drawable** ve **drawable-v24** seçenekleri çıkacaktır. Drawable seçeneğini işaretleyiniz.
   * Bu işlemler tamamlandıktan sonra **activity_main.xml** sayfasının **design** kısmını açıp **ImageView** ekleyebilirsiniz.<br>
   
-        İndirdiğiniz resmi kaydederken adında Türkçe karakter olmamasına dikkat edin aksi halde sistem hata verecektir !!
+        Resmi kaydederken adında Türkçe karakter olmamasına dikkat edin aksi halde sistem hata verecektir !!
   
       ***Tüm adımlar aşağıdaki fotoğrafta görülmektedir.***
   <br><br> 
