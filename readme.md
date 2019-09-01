@@ -200,6 +200,19 @@
   <br><br> 
   ![drawable](http://android-coffee.com/wp-content/uploads/2016/02/image-display.jpg)
   
+  <h6>~ Random Bir Sayı Üretmek ~</h6>
+  
+  * Javada random bir sayı üretmek için var olan bir `Random class` mevcuttur.
+  
+          Random random = new Random();
+    
+    şeklinde tanımlama yaparak sayınızın, random classına ait bir değer olacağını belirleyebilirsiniz.
+  
+  * Eğer rastgele bir değer almasını istediğiniz sayınızın belirli aralıkta olmasını istiyorsanız random classında bulunan `nextInt()`metoduna parametre olarak sınır sayıyı gönderin.<br><br>
+  
+    *Örneğin 0'dan 9'a kadar bir sayı üretilmesini istiyorsanız aşağıdaki gibi yazabilirsiniz.*<br>
+  
+         int number = random.nextInt(bound: 9)
  
 
        
