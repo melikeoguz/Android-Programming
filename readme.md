@@ -97,7 +97,7 @@
         
 ***Toast Message aşağıdaki gibi görünmektedir.***<bt><br>
 <br>
-![Toast Message](https://i0.wp.com/www.mehmetkarakose.com/wp-content/uploads/2016/09/ToastMesaj%C3%96rnek.png "Toast Message")
+![Toast Message](https://developer.android.com/images/toast.png "Toast Message")
         
 ----
 <h3>~ Context ~</h3>
