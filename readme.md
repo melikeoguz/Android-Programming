@@ -100,7 +100,7 @@
 ![Toast Message](https://i0.wp.com/www.mehmetkarakose.com/wp-content/uploads/2016/09/ToastMesaj%C3%96rnek.png "Toast Message")
         
 ----
-<h6>~ Context ~</h6>
+<h3>~ Context ~</h3>
 
 * İki tane context çeşiti vardır. Bunlardan bir tanesi **Activity Context** bir diğeri ise **App Context**'tir.
 * Activity contexte erişmek için **this** ya da **MainActivity.this** kullanılır. 
