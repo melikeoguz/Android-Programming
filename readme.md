@@ -10,7 +10,7 @@
    * Tek yapmanız gereken **activity_main.xml** kısmına tıklayıp **design** sekmesine gelin. Sol üst kısımda `Orientation for Preview` imgesine tıklayıp **Create Landscape Variation** yazısını seçin. Böylelikle uygulamanızın yatay görünümünü de kontrol etmiş olursunuz.
 
 ----
-<h6>~ Grid Layout ~</h6>
+<h3>~ Grid Layout ~</h3>
 
 * Birden fazla image'i düzenli olarak yani koordinat ekseni üzerine yerleştirmek isterseniz **Grid Layout** 'u kullanmanız daha iyi olur.
  
