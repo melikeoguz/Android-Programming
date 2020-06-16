@@ -28,7 +28,7 @@
   ----
 * Import edilmeyen bir özelliği sisteminize import etmek için, fare yardımıyla yazıyı taralı alan içine alıp `alt+ enter` tuşlarına basınız.
 ----
-<h6>~ Edit Text ve Text View ~</h6>
+<h3>~ Edit Text ve Text View ~</h3>
 
 * Programınıza  **edit text** ve **text view** ekleyecekseniz bunları **.java** uzantılı dosyaya da eklemeniz gerekmektedir.
 
@@ -39,7 +39,7 @@
          
      ifadesini kullanabilirsiniz.
 ----
-<h6>~ Shared Preferences ~</h6>
+<h3>~ Shared Preferences ~</h3>
 
 * Kullanıcının verdiği bir değeri uygulamanız silinene kadar saklamak için **Shared Preferences** kullanmanız gerekmektedir.
 
@@ -59,7 +59,7 @@
     
  > 
  ---   
- <h6>~ Alert Dialog ~</h6>
+ <h3>~ Alert Dialog ~</h3>
  
  * Kullanıcıya uyarı mesajları vermek için kullanılan  bir özelliktir. 
  * Bu özelliği kullanabilmek için kodlarınıza **Alert Dialog**'tan aşağıdaki nesne oluşturmanız gerekmektedir.
@@ -86,7 +86,7 @@
 
 ----
 
-<h6>~ Toast Message ~</h6>
+<h3>~ Toast Message ~</h3>
 
 * Ekranda uzun veya kısa süreli olarak belirecek olan iletidir. 
 
@@ -115,7 +115,7 @@
      MainActivity.this yerine kullanıldığında uygulamanızda hatalara sebep olmaz !
      
 ---
-<h6>~ Birden Fazla Aktivitenin Eklenmesi ~</h6>
+<h3>~ Birden Fazla Aktivitenin Eklenmesi ~</h3>
 
 * Projenize yeni bir aktive eklemek için projelerinizi görüntülediğiniz sol kısımda **java** klasörünün altında bulunan **com.android** ile başlayan kısma gelip sağ tık yapın.
 * Tıkladıktan sonra **Activity** yazan kısma tıklayıp **Gallery** kısmına tıklayın.
@@ -136,7 +136,7 @@
       
   ----
   
-  <h6>~ Aktiviteler Arası Bigi Aktarımı ~</h6>
+  <h3>~ Aktiviteler Arası Bigi Aktarımı ~</h3>
   
  * Aktarmak istediğiniz veriyi saklayacak alan oluşturduktan sonra **intent.putEkstra()**
  metodu ile istediğiniz veriyi saklayabilirsiniz.
@@ -185,7 +185,7 @@
       
   ---
 
-  <h6>~ Aktiviteye Image Eklemek ~ </h6>
+  <h3>~ Aktiviteye Image Eklemek ~ </h3>
   
   * Eklemek istediğiniz resimi indirin.
   * İndirme tamamlandıktan sonra resmi kopyalayıp Android Stüdioyu açıp sol tarafta  bulunan **project** kısmını açın.
@@ -200,7 +200,7 @@
   <br><br> 
   ![drawable](http://android-coffee.com/wp-content/uploads/2016/02/image-display.jpg)
   
-  <h6>~ Random Bir Sayı Üretmek ~</h6>
+  <h3>~ Random Bir Sayı Üretmek ~</h3>
   
   * Javada random bir sayı üretmek için var olan bir `Random class` mevcuttur.
   
